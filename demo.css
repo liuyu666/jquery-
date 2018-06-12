@@ -1,0 +1,42 @@
+.content{
+	position: relative;
+	height: 300px;
+	width:1024px;
+	overflow: hidden;
+}
+.pic li{
+	height: 300px;
+	width:400px;
+	display: none;
+	position: relative;
+}
+ul .current{
+	display: inline-block;
+	margin: 0 auto;
+}
+.left,.right{
+	position: absolute;
+}
+.left{
+	left:10px;
+	top: 150px;
+}
+.right{
+	right:10px;
+	top: 150px;
+}
+.circle{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.circle li{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color:white;
+}
+.circle .first{
+	background-color: lightblue;
+}
